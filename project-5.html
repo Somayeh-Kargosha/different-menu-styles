@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <title>پروژه شماره - 5</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/717d4250d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style-5.css" />
+  </head>
+  <body>
+    <p class="course-title">پروژه شماره 5</p>
+    <div class="container">
+      <form action="">
+        <div class="input-group">
+          <input type="text" placeholder="نام کاربری ..." />
+        </div>
+        <div class="input-group">
+          <i id="show-pass" class="far fa-eye-slash"></i>
+          <!-- <i class="far fa-eye-slash"></i> -->
+          <input class="pass" type="password" placeholder="کلمه عبور ...." />
+        </div>
+        <div class="input-group">
+          <input class="btn" type="submit" value="ورود" />
+        </div>
+      </form>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#show-pass").click(function () {
+          if ($(".pass").attr("type") === "password") {
+            $(".pass").attr("type", "text");
+          } else {
+            $(".pass").attr("type", "password");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <title>پروژه شماره - 3</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/717d4250d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style-3.css" />
+    
+  </head>
+  <body>
+    <p class="course-title">پروژه شماره 3</p>
+    <div class="container">
+      <div class="wrapper">
+        <i class="fas fa-users"></i>
+        <div class="counter" data-count="150">0</div>
+      </div>
+      <div class="wrapper">
+        <i class="fas fa-newspaper"></i>
+        <div class="counter" data-count="85">0</div>
+      </div>
+      <div class="wrapper">
+        <i class="fas fa-clock"></i>
+        <div class="counter" data-count="2200">0</div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".counter").each(function () {
+          var $this = $(this);
+          var countTo = $this.attr("data-count");
+          $({ countNum: $this.text() }).animate(
+            {
+              countNum: countTo,
+            },
+            {
+              duration: 1800,
+              easing: "linear",
+              step: function () {
+                $this.text(Math.floor(this.countNum));
+              },
+              complete: function () {
+                $this.text(this.countNum);
+              },
+            }
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

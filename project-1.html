@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <title>پروژه شماره - 1</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/717d4250d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style-1.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <p class="course-title">پروژه شماره 1</p>
+      <span class="menu"></span>
+      <div class="title">
+        <h1>روی دکمه بالا سمت چپ کلیک کنید</h1>
+      </div>
+      <div class="overlay">
+        <ul>
+          <li><a href="#">خانه</a></li>
+          <li><a href="#">دوره های آموزشی</a></li>
+          <li><a href="#">تماس با ما</a></li>
+          <li><a href="#">درباره ما</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".menu").click(function () {
+          $(".overlay").toggleClass("anim");
+        });
+      });
+    </script>
+  </body>
+</html>
