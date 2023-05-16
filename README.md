@@ -1,28 +1,21 @@
 # Different Menu Styles
 
-Different Menu Styles is a collection of various menu styles implemented using HTML, CSS, and JavaScript. 
-Each menu style provides a unique visual and interactive experience, demonstrating the versatility of web design techniques.
+Different Menu Styles is a collection of modern and stylish menu designs built with HTML, CSS, and JavaScript. It provides a variety of menu styles that you can easily incorporate into your web projects to enhance the user experience.
 
 ## Table of Contents
 
-- [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Customization](#customization)
 - [Contributing](#contributing)
-- [License](#license)
-
-## Demo
-
-To see the Different Menu Styles in action, check out the live demo [here](https://somayeh-kargosha.github.io/different-menu-styles/).
 
 ## Features
 
-- Multiple menu styles with different layouts and animations
-- Responsive design for seamless viewing on various devices
-- Customizable styles to match your website's branding
-- Cross-browser compatibility
+- Multiple menu styles to choose from, including dropdown menus, sidebar menus, Circular Menus, and more.
+- Each menu style is designed with modern aesthetics and attention to detail.
+- The menu styles are responsive and work well on different screen sizes and devices.
+- Easy integration into any HTML-based web project.
+- Customizable options to fit your project's requirements, such as colors, font styles, and animations.
 
 ## Installation
 
@@ -35,8 +28,26 @@ That's it! You now have the Different Menu Styles files ready to be used.
 
 ## Usage
 
-1. Include the necessary CSS and JavaScript files in your HTML document. For example:
+To use the Different Menu Styles in your project, follow these steps:
 
-   ```html
-   <link rel="stylesheet" href="path/to/menu-styles.css">
-   <script src="path/to/menu-styles.js"></script>
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Somayeh-Kargosha/different-menu-styles.git
+   
+
+2. Open the project folder.
+
+3. Navigate to the specific menu style you want to use (e.g., dropdown-menu, sidebar-menu, navigation-bar).
+
+4. Copy the relevant HTML, CSS, and JavaScript files to your project.
+
+5. Customize the menu style by modifying the CSS and JavaScript files as needed.
+
+6. Include the necessary HTML markup and link the CSS and JavaScript files in your project's HTML file.
+
+7. Enjoy the different menu style in your web project!
+
+## Contributing
+
+Contributions to the Different Menu Styles project are welcome. If you have created a new menu style or made improvements to an existing one, feel free to submit a pull request. Additionally, if you encounter any issues or have suggestions for enhancements, please open an issue on the GitHub repository.
